@@ -1,12 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-// import horse from '../public/image.jpeg'
-import example1 from "../public/image (1).jpeg";
-import example2 from "../public/image (4).jpeg";
-import example3 from "../public/image (3).jpeg";
-import example4 from "../public/image (5).jpeg";
-import example5 from "../public/image (6).jpeg";
-import example6 from "../public/image (7).jpeg";
 import { FaGithub } from "react-icons/fa";
 function App() {
   const [imageSrc, setImageSrc] = useState(null);
@@ -81,7 +74,7 @@ function App() {
 
       <div className="flex flex-col gap-1 lg:pt-0 pt-12">
         <h1 className=" animate-text bg-gradient-to-r from-pink-600 via-yellow-500 to-orange-500 bg-clip-text text-transparent lg:text-5xl md:text-6xl text-5xl font-black p-1">
-          Stability AI
+          Imagin AI
         </h1>
         <h3 className="lg:text-lg md:text-xl text-sm">
           Bring your imagination into{" "}
@@ -137,52 +130,6 @@ function App() {
             </button>
           </div>
         )}
-      </div>
-
-      <h1 className="text-2xl mt-12">Images Generated using Stability AI</h1>
-      <div className="lg:p-20 lg:pt-6 lg:px-56 p-8 pt-5 grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example1}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example2}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example3}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example4}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example6}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg shadow-xl shadow-slate-800 hover:scale-105 duration-300"
-            src={example5}
-            alt=""
-          />
-        </div>
       </div>
     </>
   );
