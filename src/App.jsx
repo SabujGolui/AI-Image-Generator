@@ -65,7 +65,7 @@ function App() {
             </span>
           </a>
           <a
-            href="https://github.com/sabujgolui/text-to-image"
+            href="https://github.com/SabujGolui/AI-Image-Generator"
             target="_blank"
             rel="noreferrer"
             className="bg-gray-100 p-2 rounded text-black flex justify-center items-center gap-1"
